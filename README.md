@@ -1,5 +1,7 @@
 # Resynthesizer for Blender
 
+<img width="270" height="290" alt="image" src="https://github.com/user-attachments/assets/27a3397a-40b4-4f24-95ab-83455b165169" />
+
 Texture healing for Blender's Texture Paint mode: select faces on your mesh
 and **Resynthesize** regenerates the part of the texture on those faces by
 analyzing their surroundings (similar to Photoshop's Content Aware Fill) —
