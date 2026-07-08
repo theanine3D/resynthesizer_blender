@@ -33,10 +33,12 @@ algorithm — the same engine behind GIMP's well-known "Heal selection" plugin.
 
 ## Installing
 
-Releases ship as a Blender extension zip (Blender 4.2+): Preferences >
-Extensions > Install from Disk.
+Go to the [Releases](https://github.com/theanine3D/resynthesizer_blender/releases) page
+to download an installable ZIP.
 
-Building the zip from source (Windows host):
+Then open Blender's Preferences > Extensions > Install from Disk.
+
+## Building the zip from source (Windows host):
 
 ```powershell
 ./build.ps1     # engine binaries: Windows via mingw-w64 gcc; Linux/macOS via zig cc
