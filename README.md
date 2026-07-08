@@ -1,8 +1,9 @@
 # Resynthesizer for Blender
 
 Texture healing for Blender's Texture Paint mode: select faces on your mesh
-and **Resynthesize** regenerates the texture under them from the surrounding
-texels — removing blemishes, baked-in shadows, logos, or seam artifacts while
+and **Resynthesize** regenerates the part of the texture on those faces by
+analyzing their surroundings (similar to Photoshop's Content Aware Fill) —
+removing blemishes, baked-in shadows, logos, or seam artifacts while
 matching the surrounding pattern.
 
 Powered by the [Resynthesizer](https://github.com/bootchk/resynthesizer)
