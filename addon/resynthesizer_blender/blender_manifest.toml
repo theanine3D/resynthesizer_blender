@@ -1,0 +1,24 @@
+schema_version = "1.0.0"
+
+id = "resynthesizer_texture_heal"
+version = "1.0.0"
+name = "Resynthesizer"
+tagline = "Resynthesize texture regions from their surroundings"
+maintainer = "Pedro Valencia Oseguera <theanine3d@gmail.com>"
+type = "add-on"
+
+tags = ["Paint"]
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-2.0-or-later"]
+
+# Bundles native engine binaries: libresynth.dll (Windows),
+# libresynth-linux-x64.so, libresynth-macos-{x64,arm64}.dylib
+platforms = ["windows-x64", "linux-x64", "macos-x64", "macos-arm64"]
+
+[build]
+paths_exclude_pattern = [
+  "__pycache__/",
+  "*.pyc",
+]
