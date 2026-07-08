@@ -38,19 +38,6 @@ to download an installable ZIP.
 
 Then open Blender's Preferences > Extensions > Install from Disk.
 
-## Building the zip from source (Windows host):
-
-```powershell
-./build.ps1     # engine binaries: Windows via mingw-w64 gcc; Linux/macOS via zig cc
-./package.ps1   # extension zip via `blender --command extension build` + validate
-```
-
-`build.ps1` needs `gcc` (mingw-w64) on PATH; if `zig` is also present it
-cross-compiles the Linux and macOS engines (pure C + libm, no SDKs needed).
-`package.ps1` needs `blender` on PATH. For a legacy (non-extension) install,
-run `build.ps1` and copy `addon/resynthesizer_blender/` into Blender's
-`scripts/addons/`.
-
 ## Usage
 
 1. UV-unwrapped mesh with an image texture.
@@ -84,6 +71,19 @@ step is pushed on a best-effort basis. Save before large fills.
   image I/O) for testing the engine on PNGs without Blender.
 - `python/` — the ctypes wrapper and its Blender-free test suite.
 - `test_images/` — test images from the upstream Resynthesizer repository.
+
+## Building the zip from source (Windows host):
+
+```powershell
+./build.ps1     # engine binaries: Windows via mingw-w64 gcc; Linux/macOS via zig cc
+./package.ps1   # extension zip via `blender --command extension build` + validate
+```
+
+`build.ps1` needs `gcc` (mingw-w64) on PATH; if `zig` is also present it
+cross-compiles the Linux and macOS engines (pure C + libm, no SDKs needed).
+`package.ps1` needs `blender` on PATH. For a legacy (non-extension) install,
+run `build.ps1` and copy `addon/resynthesizer_blender/` into Blender's
+`scripts/addons/`.
 
 ## Tests
 
