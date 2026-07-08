@@ -1,6 +1,6 @@
 # Resynthesizer for Blender
 
-<img width="272" height="244" alt="image" src="https://github.com/user-attachments/assets/05eded18-b9fe-4ffa-ac44-94f79ba0b783" />
+<img width="980" height="427" alt="2" src="https://github.com/user-attachments/assets/0ff39511-a799-4a42-b39d-8b13bc6985e1" />
 
 Texture healing for Blender's Texture Paint mode: select faces on your mesh
 and **Resynthesize** regenerates the part of the texture on those faces by
@@ -12,7 +12,11 @@ Powered by the [Resynthesizer](https://github.com/bootchk/resynthesizer)
 texture synthesis engine by Lloyd Konneker, implementing Paul Harrison's
 algorithm — the same engine behind GIMP's well-known "Heal selection" plugin.
 
+
+
 ## Features
+
+<img width="272" height="244" alt="image" src="https://github.com/user-attachments/assets/05eded18-b9fe-4ffa-ac44-94f79ba0b783" />
 
 - **Face-selection workflow**: select faces in Edit Mode (or with Texture
   Paint's face selection mask), press *Resynthesize* — the faces' UV
