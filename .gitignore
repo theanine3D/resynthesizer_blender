@@ -1,0 +1,14 @@
+# Build outputs
+build/
+
+# Compiled engine binaries (produced by build.ps1, bundled only into release zips)
+addon/resynthesizer_blender/*.dll
+addon/resynthesizer_blender/*.so
+addon/resynthesizer_blender/*.dylib
+
+# Python
+__pycache__/
+*.pyc
+
+# Local dev notes (machine-specific paths), not published
+NOTES-dev.md
