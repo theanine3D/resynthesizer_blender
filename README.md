@@ -1,6 +1,6 @@
 # Resynthesizer for Blender
 
-<img width="270" height="290" alt="image" src="https://github.com/user-attachments/assets/27a3397a-40b4-4f24-95ab-83455b165169" />
+<img width="268" height="266" alt="image" src="https://github.com/user-attachments/assets/5b986e3f-c186-415d-9e8d-b735ec17e8bd" />
 
 Texture healing for Blender's Texture Paint mode: select faces on your mesh
 and **Resynthesize** regenerates the part of the texture on those faces by
